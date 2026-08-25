@@ -1,0 +1,43 @@
+# OS
+.DS_Store
+Thumbs.db
+
+# Editors
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Temp / logs
+.temp/
+*.log
+
+# Local agent/runtime state (generated or machine-specific)
+/AGENTS.md
+/CLAUDE.md
+/.agents/
+/.claude/
+/.codex/
+/.local/
+/.planning/
+/.research/
+/.spec/
+/.task-board/
+/task-board.config.json
+/LOGBOOK.md
+/scripts/verify-agent-safety-contract.sh
+/scripts/verify-agent-safety-contract-test.sh
+
+# Secrets
+.env
+.env.*
+!.env.example
+
+# Go
+bin/
+coverage.out
+*.test
+dist/
+/slack-mgmt
+/slack-mgmt.exe
